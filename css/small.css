@@ -1,0 +1,284 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*********** GLOBAL STYLES ***********/
+/*********** GLOBAL STYLES ***********/
+/*********** GLOBAL STYLES ***********/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.limited {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-column {
+display: flex;
+flex-direction: column;
+}
+
+.column {
+    max-width: 250px;
+    padding: 2px;
+}
+
+.center-allin {
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
+
+/************ HEADER STYLES BEGIN *************/
+/************ HEADER STYLES BEGIN *************/
+/************ HEADER STYLES BEGIN *************/
+
+header {
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav {
+    margin: 5px;
+}
+
+.header-nav-home{
+    flex-grow: 2;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.nav-list li { 
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 7px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.header-welcome {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 2px;
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    max-width: 40%;
+    margin: 0 6px;
+    
+}
+.header-text h2{
+    font-size: 19px;
+}
+.header-text p{
+    font-size: 14px;
+}
+
+
+/********** MAIN BODY *******/
+
+
+.testimonial img {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.scores {
+    background-color: rgb(108, 117, 126);
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.setimg {
+    background: url(/images/dgwork-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+footer img {
+    width: 100px;
+    height: 30px;
+}
+
+
+
+
+/* grid rules */
+/* .row {clear: both;}
+
+.column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
+
+.small-12 {width: 100%;}
+
+.limited {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+.center-allin {
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.remlist {
+    display: block;
+}
+
+.pricing {
+    background-color: rgb(249, 249, 251);
+    padding: 1rem 0 1rem 0;
+}
+
+.scores {
+    background-color: rgb(108, 117, 126);
+}
+
+.text-white {
+    color: white;
+}
+
+.boot {
+    padding-top: 1px;
+    text-decoration-line: none;
+}
+
+.title {
+    display: flex;
+    flex-flow: row;
+    
+}
+.title div {
+    align-items: center;
+    justify-content: start;
+}
+
+
+
+header {
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.nav a {
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration-line: none;
+    color: white;
+}
+
+article>div>section>img {
+    width: 120px;
+	height: 120px;
+	border-radius: 120px;
+	margin: 0 auto;
+}
+
+#setimg {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+footer {
+    background-color: aliceblue;
+    font-size: 1.2rem;
+}
+
+
+footer h3 {
+    font-weight: lighter;
+    margin: 1rem, 0, .3rem, 0;
+
+}
+.begin {
+    padding-top: 1rem;
+}
+
+footer img {
+    max-width: 53%;
+    height: auto;
+    display: block;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    .medium-6 {width: 50%;}
+    .medium-12 {width: 100%;}
+    
+    }
+    @media only screen and (min-width: 1024px) {
+
+        .large-3 {width: 25%;}
+        .large-6 {width: 50%;}
+        .large-12 {width: 100%;}
+        .large-4 {width: 33.3%;}
+        
+        } */

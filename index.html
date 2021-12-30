@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <div class="header">
+        <div class="header limited">
             <div class="header-nav">
                 <section class="header-nav-home">
                     <div class="nav"><a href="#">BootstrapLily</a></div>
@@ -37,10 +37,9 @@
                 <section class="header-text">
                     <div class="title">
                         <h2>Free landing Page for your business</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit a autem repellat. Cum itaque
-                            culpa esse? Ducimus laboriosam aut quas sequi ut. Alias perferendis molestias dolor
-                            praesentium possimus minima?
-                            Iure!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Impedit nihil tenetur minus quidem est deserunt molestias
+                            accusamus harum ullam tempore debitis et.</p>
                         <button>START FREE TRIAL</button>
                     </div>
                 </section>
@@ -52,9 +51,9 @@
     <!--Header content ends here-->
 
     <main>
-        <article class="flex-column limited center-allin">
+        <article class="flex-column limited center-allin feature">
             <div class="limited">
-                <section class="flex-column">
+                <section class="flex-column feature-img">
                     <p>We Bring You</p>
                     <h2>Amazing Features</h2>
                     <div class="">
@@ -62,18 +61,21 @@
                     </div>
                 </section>
             </div>
-            <div class="flex-row features">
-                <section class="column">
+            <div class="features">
+                <section class="feat">
+                    <i class="fa fa-paint-brush fa-2x"></i>
                     <h3>Unique Design</h3>
                     <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur
                         cupidatat.</p>
                 </section>
-                <section class="column">
+                <section class="feat">
+                    <i class="fa fa-cogs fa-2x"></i>
                     <h3>Advanced Options</h3>
                     <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur
                         cupidatat.</p>
                 </section>
-                <section class="column ">
+                <section class="feat">
+                    <i class="fa fa-desktop fa-2x"></i>
                     <h3>Retina Ready</h3>
                     <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur
                         cupidatat.</p>
@@ -82,58 +84,91 @@
         </article>
         <div class="pricing">
             <article class="limited center-allin">
-                <section class="">
+                <section class="pricing_head">
                     <h2>Pricing Plans</h2>
                     <p class="italics">Choose a Plan That's Right for Your Business</p>
                 </section>
-                <div class="flex-row">
-                    <section class="column">
-                        <div>
-                            <p>BASIC</p>
-                            <p>&dollar;<span>99</span>.99/MON</p>
-                        </div>
-                        <div>
-                            <div class="remlist">
-                                <p><span>2GB</span> Bandwidth</p>
-                                <p><span>150GB</span> Storage</p>
-                                <p><span>12</span> Accounts</p>
-                                <p><span>7</span> Host Domain</p>
-                                <p><span>24/7</span> Support</p>
+                <div class="pricing-col">
+                    <section class="pricing-item">
+                        <div class="item-head_price">
+                            <div class="item-head_content ">
+                                <div class="head_bg"></div>
+                                <div class="head"> <span>Basic</span> </div>
                             </div>
-                            <button>SIGN UP</button>
+                            <div class="item_price_tag ">
+                                <span class="price"> <span class="sign">$</span>
+                                    <span class="currency">99</span>
+                                    <span class="cent">.99</span>
+                                    <span class="month">/MON</span> </span>
+                            </div>
                         </div>
+                        
+                        <div class="item_feature_list">
+                            <ul>
+                                <li><span>2GB</span> Bandwidth</li>
+                                <li><span>150GB</span> Storage</li>
+                                <li><span>12</span> Accounts</li>
+                                <li><span>7</span> Host Domain</li>
+                                <li><span>24/7</span> Support</li>
+                            </ul>
+                        </div>
+                       
+                        <div class="item_price_btn "> <a class="" href="">Sign up</a> </div>
+                       
                     </section>
-                    <section class="column">
-                        <div>
-                            <p>STANDARD</p>
-                            <p>&dollar;<span>199</span>.99/MON</p>
-                        </div>
-                        <div>
-                            <div class="remlist">
-                                <p><span>2GB</span> Bandwidth</p>
-                                <p><span>150GB</span> Storage</p>
-                                <p><span>12</span> Accounts</p>
-                                <p><span>7</span> Host Domain</p>
-                                <p><span>24/7</span> Support</p>
+                    <section class="pricing-item active">
+                        <div class="item-head_price">
+                            <div class="item-head_content ">                    
+                                <div class="head_bg"></div>
+                                <div class="head"> <span>standard</span> </div>                      
                             </div>
-                            <button>SIGN UP</button>
+                            <div class="item_price_tag ">
+                                <span class="price"> <span class="sign">$</span>
+                                    <span class="currency">199</span>
+                                    <span class="cent">.99</span>
+                                    <span class="month">/MON</span> </span>
+                            </div>
                         </div>
+                        
+                        <div class="item_feature_list">
+                            <ul>
+                                <li><span>2GB</span> Bandwidth</li>
+                                <li><span>150GB</span> Storage</li>
+                                <li><span>12</span> Accounts</li>
+                                <li><span>7</span> Host Domain</li>
+                                <li><span>24/7</span> Support</li>
+                            </ul>
+                        </div>
+                                              
+                        <div class="item_price_btn "> <a class="" href="">Sign up</a> </div>
+                        
                     </section>
-                    <section class="column">
-                        <div>
-                            <p>UNLIMITED</p>
-                            <p>&dollar;<span>299</span>.99/MON</p>
-                        </div>
-                        <div>
-                            <div class="remlist">
-                                <p><span>2GB</span> Bandwidth</p>
-                                <p><span>150GB</span> Storage</p>
-                                <p><span>12</span> Accounts</p>
-                                <p><span>7</span> Host Domain</p>
-                                <p><span>24/7</span> Support</p>
+                    <section class="pricing-item">
+                        <div class="item-head_price">
+                            <div class="item-head_content ">                  
+                                <div class="head_bg"></div>
+                                <div class="head"> <span>unlimited</span> </div>                      
                             </div>
-                            <button>SIGN UP</button>
+                            <div class="item_price_tag ">
+                                <span class="price"> <span class="sign">$</span>
+                                    <span class="currency">299</span>
+                                    <span class="cent">.99</span>
+                                    <span class="month">/MON</span> </span>
+                            </div>
                         </div>
+                        
+                        <div class="item_feature_list">
+                            <ul>
+                                <li><span>2GB</span> Bandwidth</li>
+                                <li><span>150GB</span> Storage</li>
+                                <li><span>12</span> Accounts</li>
+                                <li><span>7</span> Host Domain</li>
+                                <li><span>24/7</span> Support</li>
+                            </ul>
+                        </div>
+                               
+                        <div class="item_price_btn "> <a class="" href="">Sign up</a> </div>
+                        
                     </section>
             </article>
         </div>
@@ -142,62 +177,70 @@
                 <h2>Testimonials</h2>
                 <p class="italics">We're very proud of the reputation we've built</p>
             </section>
-            <div class="flex-row">
+            <div class="flex-row testimonial-items">
                 <section class="column">
                     <img src="/images/1.jpg" alt="Elison">
                     <h3>Ellison Johnson</h3>
                     <p class="tiny">SALES MANAGER</p>
-                    <P>Sales Manager is an academic rank used in universities or colleges in the United States, Canada,
+                    <P class="test">Sales Manager is an academic rank used in universities or colleges in the United
+                        States, Canada,
                         and some other countries.</P>
                 </section>
                 <section class="column">
                     <img src="/images/2.jpg" alt="Dust">
                     <h3>George Dust</h3>
                     <p class="tiny">ENGINEER</p>
-                    <p>A bachelor's degree in psychology is ideal for would-be professors in this field. Although most
+                    <p class="test">A bachelor's degree in psychology is ideal for would-be professors in this field.
+                        Although most
                         psychology Ph.D programs.</p>
                 </section>
                 <section class="column">
                     <img src="/images/3.jpg" alt="Kiven">
                     <h3>Kiven Rich</h3>
                     <p class="tiny">CHIEF EXECUTIVE OFFICER</p>
-                    <p>Chief Executive Officer is an academic rank used in universities or colleges in the United
+                    <p class="test">Chief Executive Officer is an academic rank used in universities or colleges in the
+                        United
                         States, Canada, and some other countries.</p>
                 </section>
                 <section class="column">
                     <img src="/images/4.jpg" alt="Jeremy">
                     <h3>Jeremy Elloit</h3>
                     <p class="tiny">DESIGNER</p>
-                    <P>Designer is an academic rank used in universities or colleges in the United States, Canada, and
+                    <P class="test">Designer is an academic rank used in universities or colleges in the United States,
+                        Canada, and
                         some other countries.</P>
                 </section>
             </div>
         </article>
         <article class="scores center-allin">
-            <div class="flex-row limited">
-                <section class="column">
-                    <h1>70</h1>
-                    <p>Awards Won</p>
-                </section>
-                <section class="column">
-                    <h1>48</h1>
-                    <p>Satisfied Clients</p>
-                </section>
-                <section class="column">
-                    <h1>56</h1>
-                    <p>startup Growth</p>
-                </section>
-                <section class="column">
-                    <h1>28</h1>
-                    <p>Average Prices</p>
-                </section>
+            <div class="scores-box">
+                <div class="flex-row limited">
+                    <section class="column">
+                        <h1>70</h1>
+                        <p>Awards Won</p>
+                    </section>
+                    <section class="column">
+                        <h1>48</h1>
+                        <p>Satisfied Clients</p>
+                    </section>
+                    <section class="column">
+                        <h1>56</h1>
+                        <p>startup Growth</p>
+                    </section>
+                    <section class="column">
+                        <h1>28</h1>
+                        <p>Average Prices</p>
+                    </section>
+                </div>
             </div>
         </article>
         <article class="community">
-            <div class="limited center-allin text-white">
-                <h1 class="mb-4">Why You Are Still Waiting?</h1>
-                <p class="lead mb-5">More than 5000 users are in our community</p>
-                <button>START FREE TRAIL</button>
+            <div class="community-box">
+                <div class="limited center-allin text-white">
+                    <h1 class="mb-4">Why You Are Still Waiting?</h1>
+                    <p class="lead mb-5">More than 5000 users are in our community</p>
+                    <button>START FREE TRAIL</button>
+                </div>
             </div>
         </article>
         <article>
@@ -207,7 +250,7 @@
                 </section>
                 <section class="form">
 
-                    <h3>Keep in touch with us</h3>
+                    <h2>Keep in touch with us</h2>
                     <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur
                         cupidatat.</p>
 
@@ -239,51 +282,55 @@
 
     </main>
     <footer class="">
-        <div class="flex-row limited">
-            <section class="column">
-                <div class="begin"><img src="images/logo-grey.png" alt="Logo"></div>
-                <p>Lorem ipsum dolor sit amet, <br>qui minim labore adipisicing <br> minim sint cillum sint
-                <div> 
-                        <a class="socials" href="#"> <i class="fa fa-facebook-f"></i></a> 
-                        <a class="socials" href="#"> <i class="fa fa-linkedin"></i> </a> 
-                        <a class="socials" href="#"> <i class="fa fa-twitter"></i> </a> 
-                        <a class="socials" href="#"> <i class="fa fa-instagram"></i> </a> </div>
-                
-            </section>
+        <div class="footer">
+            <div class="flex-row limited">
+                <section class="column">
+                    <div class="begin"><img src="images/logo-grey.png" alt="Logo"></div>
+                    <p>Lorem ipsum dolor sit amet, <br>qui minim labore adipisicing <br> minim sint cillum sint
+                    <div>
+                        <a class="socials" href="#"> <i class="fa fa-facebook-f"></i></a>
+                        <a class="socials" href="#"> <i class="fa fa-linkedin"></i> </a>
+                        <a class="socials" href="#"> <i class="fa fa-twitter"></i> </a>
+                        <a class="socials" href="#"> <i class="fa fa-instagram"></i> </a>
+                    </div>
 
-            <section class="column">
-                <h3>Useful Links</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About US</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </section>
-            <section class="column">
-                <h3>Product Help</h3>
-                <ul>
-                    <li>FAQ</li>
-                    <li>Privacy Policy</li>
-                    <li>Support</li>
-                    <li>Terms &amp; Conditions</li>
-                    <li>Contact</li>
-                </ul>
-            </section>
-            <section class="column">
-                <h3>Download</h3>
-                <div>
-                    <img src="/images/android_badge_web_generic_0.png" alt="playStore">
-                </div>
-                <div>
-                    <img src="/images/Apple_App_Store_Badge_US-UK_135x40_0.png" alt="Applestore">
-                </div>
-            </section>
+                </section>
+
+                <section class="column">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About US</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </section>
+                <section class="column">
+                    <h3>Product Help</h3>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Terms &amp; Conditions</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </section>
+                <section class="column play">
+                    <h3>Download</h3>
+                    <div>
+                        <img src="/images/android_badge_web_generic_0.png" alt="playStore">
+                    </div>
+                    <div>
+                        <img src="/images/Apple_App_Store_Badge_US-UK_135x40_0.png" alt="Applestore">
+                    </div>
+                </section>
+            </div>
+            <div class="limited flex-row">
+                <div class="copyright">© Copyrights 2020 thisApp All rights reserved.</div>
+                <div class="copyright">Made with <i class="fa fa-heart"></i> By <span>BootstrapLily</span></div>
+            </div>
         </div>
-        <div class="copyright">
-        </div>
-            
     </footer>
 
 
